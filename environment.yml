@@ -1,0 +1,27 @@
+name: detect
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - nomkl
+  - python=3.8
+  - numpy
+  - matplotlib
+  - tensorboard>=1.15
+  - terminaltables
+  - pillow
+  - tqdm
+  - imgaug>=0.4
+  - scipy
+  - pandas
+  - jupyter
+  - jupyterlab
+  - nb_conda
+  - nb_conda_kernels
+  - ipykernel
+  - pathlib
+  - seaborn
+  - pip  
+  - pip:
+    - torch>=1.2
+    - torchsummary
